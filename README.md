@@ -23,12 +23,12 @@ It is redistributed under the same GNU GPLv3 license, with branding and adjustme
 
 ## 📸 Screenshots
 
-<a href="screenshots/1.png"><img src="screenshots/1.thumb.png" width="300"/></a>
-<a href="screenshots/2.png"><img src="screenshots/2.thumb.png" width="300"/></a>
-<a href="screenshots/3.png"><img src="screenshots/3.thumb.png" width="300"/></a>
-<a href="screenshots/4.png"><img src="screenshots/4.thumb.png" width="300"/></a>
-<a href="screenshots/5.png"><img src="screenshots/5.thumb.png" width="300"/></a>
-<a href="screenshots/6.png"><img src="screenshots/6.thumb.png" width="300"/></a>
+<a href="screenshots/1.png"><img src="screenshots/1.thumb.png" width="260" height="500"/></a>
+<a href="screenshots/2.png"><img src="screenshots/2.thumb.png" width="260" height="500"/></a>
+<a href="screenshots/3.png"><img src="screenshots/3.thumb.png" width="260" height="500"/></a>
+<a href="screenshots/4.png"><img src="screenshots/4.thumb.png" width="260" height="500"/></a>
+<a href="screenshots/5.png"><img src="screenshots/5.thumb.png" width="260" height="500"/></a>
+<a href="screenshots/6.png"><img src="screenshots/6.thumb.png" width="260" height="500"/></a>
 
 ---
 
