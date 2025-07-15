@@ -23,12 +23,12 @@ It is redistributed under the same GNU GPLv3 license, with branding and adjustme
 
 ## 📸 Screenshots
 
-[![Main screen][screen1th]][screen1]
-[![Edit habit][screen2th]][screen2]
-[![Habit strength][screen3th]][screen3]
-[![Habit history][screen4th]][screen4]
-[![Widgets][screen5th]][screen5]
-[![Night mode][screen6th]][screen6]
+<a href="screenshots/1.png"><img src="screenshots/1.thumb.png" width="300"/></a>
+<a href="screenshots/2.png"><img src="screenshots/2.thumb.png" width="300"/></a>
+<a href="screenshots/3.png"><img src="screenshots/3.thumb.png" width="300"/></a>
+<a href="screenshots/4.png"><img src="screenshots/4.thumb.png" width="300"/></a>
+<a href="screenshots/5.png"><img src="screenshots/5.thumb.png" width="300"/></a>
+<a href="screenshots/6.png"><img src="screenshots/6.thumb.png" width="300"/></a>
 
 ---
 
