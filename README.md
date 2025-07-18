@@ -23,12 +23,12 @@ It is redistributed under the same GNU GPLv3 license, with branding and adjustme
 
 ## 📸 Screenshots
 
-[![Main screen][screen1th]][screen1]
-[![Edit habit][screen2th]][screen2]
-[![Habit strength][screen3th]][screen3]
-[![Habit history][screen4th]][screen4]
-[![Widgets][screen5th]][screen5]
-[![Night mode][screen6th]][screen6]
+<a href="screenshots/1.png"><img src="screenshots/1.thumb.png" width="260" height="500"/></a>
+<a href="screenshots/2.png"><img src="screenshots/2.thumb.png" width="260" height="500"/></a>
+<a href="screenshots/3.png"><img src="screenshots/3.thumb.png" width="260" height="500"/></a>
+<a href="screenshots/4.png"><img src="screenshots/4.thumb.png" width="260" height="500"/></a>
+<a href="screenshots/5.png"><img src="screenshots/5.thumb.png" width="260" height="500"/></a>
+<a href="screenshots/6.png"><img src="screenshots/6.thumb.png" width="260" height="500"/></a>
 
 ---
 
@@ -81,16 +81,3 @@ All original rights and attribution are retained, and all code remains fully ope
 - [How to build the app](https://github.com/iSoron/uhabits/blob/dev/docs/BUILD.md)
 
 ---
-
-[screen1]: screenshots/1.png  
-[screen2]: screenshots/2.png  
-[screen3]: screenshots/3.png  
-[screen4]: screenshots/4.png  
-[screen5]: screenshots/5.png  
-[screen6]: screenshots/6.png  
-[screen1th]: screenshots/1.thumb.png  
-[screen2th]: screenshots/2.thumb.png  
-[screen3th]: screenshots/3.thumb.png  
-[screen4th]: screenshots/4.thumb.png  
-[screen5th]: screenshots/5.thumb.png  
-[screen6th]: screenshots/6.thumb.png  

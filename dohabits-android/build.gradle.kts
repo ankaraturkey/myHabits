@@ -22,6 +22,7 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.ksp)
     alias(libs.plugins.ktlint.plugin)
+    id("com.google.gms.google-services")
 }
 
 tasks.compileLint {
@@ -86,6 +87,15 @@ android {
     kotlinOptions.jvmTarget = JavaVersion.VERSION_17.toString()
     buildFeatures.viewBinding = true
     lint.abortOnError = false
+    flavorDimensions += "channel"
+    productFlavors {
+        create("gp") {
+            dimension = "channel"
+        }
+        create("mi") {
+            dimension = "channel"
+        }
+    }
 }
 
 dependencies {
@@ -110,6 +120,62 @@ dependencies {
     implementation(libs.konfetti.xml)
     implementation(project(":dohabits-core"))
     ksp(libs.dagger.compiler)
+
+    // AdMob（Google 移动广告 SDK）
+    add("gpImplementation", "com.google.android.gms:play-services-ads:22.5.0")
+    
+    add("miImplementation", "com.google.android.gms:play-services-ads:22.5.0")
+    add("miImplementation", "com.tradplusad:tradplus:14.3.30.1")
+    add("miImplementation", "androidx.legacy:legacy-support-v4:1.0.0")
+    add("miImplementation", "androidx.appcompat:appcompat:1.3.0-alpha02")
+    add("miImplementation", "androidx.core:core-ktx:1.5.0")
+    add("miImplementation", "androidx.recyclerview:recyclerview:1.1.0")
+    add("miImplementation", "com.google.code.gson:gson:2.8.6")
+
+    add("miImplementation", "com.google.android.gms:play-services-ads:22.5.0")
+    add("miImplementation", "com.google.android.gms:play-services-ads-identifier:18.2.0")
+    add("miImplementation", "com.google.android.gms:play-services-appset:16.0.0")
+    add("miImplementation", "com.google.android.gms:play-services-basement:17.5.0")
+
+    add("miImplementation", "com.applovin:applovin-sdk:13.3.0")
+    add("miImplementation", "com.tradplusad:tradplus-applovin:9.14.3.30.1")
+
+    add("miImplementation", "com.ironsource.sdk:mediationsdk:8.9.1")
+    add("miImplementation", "com.tradplusad:tradplus-ironsource:10.14.3.30.1")
+
+    add("miImplementation", "com.pangle.global:pag-sdk:7.2.0.5")
+    add("miImplementation", "com.tradplusad:tradplus-pangle:19.14.3.30.1")
+
+    add("miImplementation", "com.inmobi.monetization:inmobi-ads-kotlin:10.8.3")
+    add("miImplementation", "com.inmobi.omsdk:inmobi-omsdk:1.3.17.1")
+    add("miImplementation", "com.tradplusad:tradplus-inmobix:23.14.3.30.1")
+
+    add("miImplementation", "com.mbridge.msdk.oversea:mbridge_android_sdk:16.9.71")
+    add("miImplementation", "com.tradplusad:tradplus-mintegralx_overseas:18.14.3.30.1")
+
+    add("miImplementation", "com.yandex.android:mobileads:7.13.0")
+    add("miImplementation", "com.tradplusad:tradplus-yandex:50.14.3.30.1")
+
+    add("miImplementation", "com.bigossp:bigo-ads:5.3.0")
+    add("miImplementation", "com.tradplusad:tradplus-bigo:57.14.3.30.1")
+
+    add("miImplementation", "com.vungle:vungle-ads:7.5.0")
+    add("miImplementation", "com.tradplusad:tradplus-vunglex:7.14.3.30.1")
+
+    add("miImplementation", "com.tradplusad:tradplus-crosspromotion:27.14.3.30.1")
+
+    add("miImplementation", "com.tradplusad:tp_exchange:40.14.3.30.1")
+
+    add("miImplementation", "com.mi.ads:columbus-sdk:3.5.1.9")
+    add("miImplementation", "com.tradplusad:tradplus-columbus:76.14.3.30.1")
+
+
+    // Facebook Audience Network（如需 Facebook 广告混合填充）
+    implementation("androidx.annotation:annotation:1.7.0")
+    implementation("com.facebook.android:audience-network-sdk:6.16.0")
+
+    implementation(platform("com.google.firebase:firebase-bom:33.16.0"))
+    // TODO: 按需添加 Firebase 具体依赖
 
     androidTestImplementation(libs.bundles.androidTest)
     testImplementation(libs.bundles.test)

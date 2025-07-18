@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "615064035400",
+    "project_id": "myhabits-5140d",
+    "storage_bucket": "myhabits-5140d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615064035400:android:7bb98e2ca21abde700787d",
+        "android_client_info": {
+          "package_name": "com.dodo.myhabits"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5pJVpR1CGr0_Xxopgp76KOq9SH7SzwPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

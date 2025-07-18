@@ -41,7 +41,9 @@ class IntroActivity : AppIntro2() {
                 getString(R.string.intro_title_1),
                 getString(R.string.intro_description_1),
                 R.drawable.intro_icon_1,
-                Color.parseColor("#C0C0C0")
+                Color.parseColor("#F0F0F0"), // 背景色
+                Color.parseColor("#512DA8"), // 标题颜色（紫色）
+                Color.parseColor("#512DA8")  // 描述颜色（紫色）
             )
         )
 

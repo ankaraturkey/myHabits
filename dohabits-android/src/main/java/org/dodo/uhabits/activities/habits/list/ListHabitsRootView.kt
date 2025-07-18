@@ -50,9 +50,9 @@ import com.dodo.dohabits.utils.dim
 import com.dodo.dohabits.utils.dp
 import com.dodo.dohabits.utils.setupToolbar
 import com.dodo.dohabits.utils.sres
-import javax.inject.Inject
 import kotlin.math.max
 import kotlin.math.min
+import javax.inject.Inject
 
 const val MAX_CHECKMARK_COUNT = 60
 
@@ -74,9 +74,10 @@ class ListHabitsRootView @Inject constructor(
         translationZ = 10f
     }
     val progressBar = TaskProgressBar(context, runner)
-    val hintView: HintView
-    val header = HeaderView(context, preferences, midnightTimer)
+    lateinit var hintView: HintView
 
+    val header = HeaderView(context, preferences, midnightTimer)
+    
     init {
         val hints = resources.getStringArray(R.array.hints)
         val hintList = hintListFactory.create(hints)

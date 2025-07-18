@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dodo.dohabits">
+
+    <!-- 广告/网络/基础权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.AD_ID" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <!-- 其它平台如有特殊权限，按官方文档补充 -->
+
+    <application
+        android:name=".HabitsApplication"
+        android:allowBackup="true"
+        android:backupAgent=".HabitsBackupAgent"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/main_activity_title"
+        android:localeConfig="@xml/locales_config"
+        android:supportsRtl="true"
+        android:theme="@style/AppBaseTheme">
+
+        <!-- AdMob 配置 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+        <meta-data
+            android:name="com.google.android.gms.ads.DELAY_APP_MEASUREMENT_INIT"
+            android:value="true" />
+
+        <!-- TradPlus 初始化配置（示例，具体内容请查阅官方文档） -->
+        <meta-data
+            android:name="tradplus_app_id"
+            android:value="你的TradPlusAppId" />
+        <!-- 其它平台如需 meta-data/provider，按官方文档补充 -->
+
+        <!-- 其余 Activity、Receiver、Service 可参考主 manifest 复制或合并 -->
+    </application>
+</manifest> 
